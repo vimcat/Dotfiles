@@ -11,9 +11,9 @@ alias md="mkdir -p"
 alias rd="rm -r"
 
 #Utility
-alias reload='source ~/bin/dotfiles/bashrc'
-alias ea='vi ~/bin/dotfiles/bash/aliases && reload' # Edit aliases
-alias ee="vi ~/bin/dotfiles/bash/env && reload"
+alias reload='source ~/Dotfiles/.bashrc'
+alias ea='vi ~/Dotfiles/bash/aliases && reload' # Edit aliases
+alias ee="vi ~/Dotfiles/bash/env && reload"
 
 #Start Programs
 alias be="bundle exec"
@@ -63,3 +63,8 @@ function over {
    echo "usage: over partial-dir-name"
  fi
 }
+
+#Editor
+alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
+alias nano="subl"
+export EDITOR="subl"
