@@ -65,5 +65,5 @@ function over {
 }
 
 #Editor
-alias nano="subl"
-export EDITOR="subl"
+#alias nano="subl"
+#export EDITOR="subl" #hiding due to conflict with subversion

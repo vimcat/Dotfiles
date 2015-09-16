@@ -38,6 +38,6 @@ BMAGENTA='\e[45m'
 BCYAN='\e[46m'
 BWHITE='\e[47m'
 
-#PS1="\u@\h: \w\n→ "
-#PS1="\n\u@\h: \w \[$EBLACK\]\$(git_branch)\[$NO_COLOR\] \n→ "
-ps1_set --prompt →
+#PS1="\u at \h in \w\n→ "
+#PS1="\n\u at \h in \w \[$EBLACK\]\$(git_branch)\[$NO_COLOR\] \n→ "
+ps1_set --prompt ➤
